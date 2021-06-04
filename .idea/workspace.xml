@@ -40,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/servlet.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.ChatIndex">
+  <component name="RunManager" selected="Application.EditGroup">
     <configuration name="ChatIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChatIndex" />
       <module name="chat_swing_client" />
@@ -74,6 +74,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="components.Teams.create.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="components.Teams.edit.EditGroup" />
+      <module name="chat_swing_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="components.Teams.edit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +159,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EditGroup" />
         <item itemvalue="Application.ChatIndex" />
         <item itemvalue="Application.CreatePanel" />
         <item itemvalue="Application.Settings" />
@@ -198,6 +214,7 @@
       <workItem from="1622709436075" duration="2256000" />
       <workItem from="1622712398649" duration="94000" />
       <workItem from="1622713056995" duration="8378000" />
+      <workItem from="1622773324058" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="start with intell">
       <created>1619775491094</created>
